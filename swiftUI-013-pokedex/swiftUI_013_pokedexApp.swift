@@ -13,8 +13,9 @@ struct swiftUI_013_pokedexApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+//            ContentView()
+//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            PokedexView()
         }
     }
 }
